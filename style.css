@@ -1,0 +1,175 @@
+
+body {
+    background-image: url('images/tlo.jpg'); /* Ścieżka do pliku tła */
+    background-size: cover; /* Dopasowanie tła do okna przeglądarki */
+    background-repeat: no-repeat; /* Wyłączenie powtarzania obrazu */
+    background-attachment: fixed; /* Tło pozostaje w miejscu podczas przewijania */
+    color: #333; /* Kolor tekstu dla lepszej czytelności */
+    font-family: 'Birthstone', serif; /* Styl czcionki */
+    margin: 0;
+    padding: 0;
+}
+.birthstone-regular {
+    font-family: "Birthstone", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+#logo {
+    font-size: 4rem;
+    margin: 0;
+    font-weight: bold;
+    color: #cf9906; /* Kolor złoty dla luksusowego wyglądu */
+    text-shadow: 1px 1px 2px rgb(79, 53, 4);
+}
+
+header h1 {
+    font-size: 4rem;
+    margin: 0.3rem 0 1rem;
+    color:#8c6c15
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+}
+
+nav a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+header {
+    text-align: center;
+    background-image: url('images/tlogora.jpg'); /* Ścieżka do grafiki tła */
+    background-size: cover; /* Dopasowanie grafiki do nagłówka */
+    background-position: center; /* Wycentrowanie obrazu */
+    padding: 2.5rem;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+h2, h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: underline;
+    color: #000;
+    font-size: 2.2rem;
+}
+
+section {
+    text-align: center;
+    padding: 2rem;
+}
+
+.about {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.about-text {
+    flex: 1;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.about-image {
+    flex: 1;
+    text-align: center; /* Wyśrodkowanie obrazu w pionie */
+}
+.about-image img {
+        width: 100%; /* Obraz dopasowany do szerokości kontenera */
+        max-width: 600px; /* Maksymalna szerokość obrazu */
+        height: auto; /* Zachowanie proporcji obrazu */
+        border-radius: 10px; /* Zaokrąglenie rogów obrazu */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtelny cień */
+}
+
+.steps {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.steps .step {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.steps .step:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+.steps .step-image img {
+    width: 100%;
+    max-width: 600px; /* Maksymalna szerokość obrazu */
+    height: auto; /* Zachowanie proporcji */
+    border-radius: 10px; /* Zaokrąglenie rogów */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtelny cień */
+}
+.testimonials {
+    text-align: center;
+    padding: 2rem;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+}
+
+.testimonial-content {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.testimonial-text {
+    flex: 1;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.testimonial-nav {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+.testimonial-nav button {
+    background: transparent;
+    border: none;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.testimonial-nav button:hover {
+    color: #000;
+}
+
+
+footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+}
